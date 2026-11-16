@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1ntertopía© · Víctor Hugo Ramírez Salgado</title>
+<meta name="description" content="1ntertopía©, sistema de generación de valor. Obra de Víctor Hugo Ramírez Salgado (VHRS). Todos los derechos reservados.">
+<meta name="author" content="Víctor Hugo Ramírez Salgado">
+<style>
+:root{--grafito:#14171A;--oro:#B8935A;--plata:#C9CDD3;--tinta:#E8E9EB}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--grafito);color:var(--tinta);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:hidden}
+header{display:flex;justify-content:flex-end;gap:8px;padding:12px 16px}
+select,button{font:inherit;background:#1E2226;color:var(--tinta);border:1px solid #3A4048;border-radius:8px;padding:6px 10px;touch-action:manipulation}
+main{max-width:760px;margin:0 auto;padding:8px 20px 48px}
+h1{font-size:clamp(34px,9vw,64px);margin:24px 0 4px;color:var(--oro);letter-spacing:.02em;cursor:pointer;user-select:none}
+h1.sonando{text-shadow:0 0 18px var(--oro)}
+.sub{color:var(--plata);margin:0 0 28px}
+section{border-top:1px solid #2A2F35;padding:18px 0}
+h2{font-size:18px;color:var(--plata);margin:0 0 8px;text-transform:uppercase;letter-spacing:.08em}
+.estado{display:inline-block;padding:2px 10px;border:1px solid var(--oro);border-radius:99px;color:var(--oro);font-size:14px}
+.pista{font-size:13px;color:#8A9099}
+footer{max-width:760px;margin:0 auto;padding:20px;font-size:13px;color:#8A9099;border-top:1px solid #2A2F35}
+[dir=rtl] main,[dir=rtl] footer{text-align:right}
+</style>
+</head>
+<body>
+<header>
+  <label for="idioma" class="pista" data-t="idioma">Idioma</label>
+  <select id="idioma" aria-label="Idioma"></select>
+</header>
+<main>
+  <h1 id="titulo" title="Morse">1ntertopía©</h1>
+  <p class="sub" data-t="sub">Sistema de generación de valor</p>
+  <p class="pista" data-t="morse">Toca el título para escucharlo en Morse.</p>
+
+  <section>
+    <h2 data-t="h_que">Qué es</h2>
+    <p data-t="que">1ntertopía© es un sistema propio que analiza mercados de forma automática y busca generar valor con reglas de riesgo definidas por su autor. El autor es el único administrador: ninguna operación se ejecuta sin su autorización.</p>
+  </section>
+
+  <section>
+    <h2 data-t="h_estado">Estado</h2>
+    <p><span class="estado" data-t="estado">En pruebas en modo de simulación</span></p>
+    <p data-t="estado_txt">Esta página es solo informativa. No ofrece inversiones, no capta dinero del público y no es una recomendación financiera.</p>
+  </section>
+
+  <section>
+    <h2 data-t="h_origen">Origen</h2>
+    <p data-t="origen">El proyecto inició el 14 de febrero de 2026 con el nombre Intertopía. Hoy, «Intertopía» es el concepto propuesto a la Real Academia Española y «1ntertopía» es el sistema.</p>
+  </section>
+
+  <section>
+    <h2 data-t="h_codigo">Código</h2>
+    <p data-t="codigo">El código fuente es privado. Lo que se publica aquí está escrito en el Código de comunicación del Cubo (33)©, creación del mismo autor.</p>
+  </section>
+
+  <section>
+    <h2 data-t="h_autor">Autoría</h2>
+    <p data-t="autor">Autor y titular al 100 %: Víctor Hugo Ramírez Salgado (VHRS). Obra registrada en Safe Creative. Todos los derechos reservados.</p>
+  </section>
+</main>
+<footer>
+  © 2026 Víctor Hugo Ramírez Salgado · 1ntertopía© · Intertopía© · Código de comunicación del Cubo (33)© · Asistencia-IA
+</footer>
+<script src="assets/cubo-rt.js?v=1"></script>
+<script src="assets/vitrina.js?v=1"></script>
+</body>
+</html>
